@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "Hoop Spots",
+  "webDir": "www",
+  "npmClient": "npm"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Hoop Spots",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
