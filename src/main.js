@@ -2,7 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router';
 import Ionic from '@ionic/vue';
-import '@ionic/core/css/ionic.bundle.css';
+import "@ionic/core/css/core.css"
+import "@ionic/core/css/ionic.bundle.css"
 import '@/assets/css/tailwind.css';
 import './registerServiceWorker'
 import axios from 'axios'
@@ -37,17 +38,18 @@ addIcons({
   'md-albums': albums.md,
 });
 
+
 // import { Plugins, StatusBarStyle } from '@capacitor/core';
-import { Plugins } from '@capacitor/core';
+// import { Plugins } from '@capacitor/core';
 // const { SplashScreen, StatusBar, Network } = Plugins;
-const { StatusBar } = Plugins;
+// const { StatusBar } = Plugins;
 
 Vue.config.productionTip = false;
 
 // Tell Vue that the ion-components aren’t Vue components
 Vue.config.ignoredElements = [/^ion-/];
 
-StatusBar.hide();
+// StatusBar.hide();
 
 Vue.use(VueAxios, axios);
 Vue.use(Ionic);

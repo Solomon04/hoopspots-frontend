@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <ion-app>
-            <ion-vue-router main :animated="true"/>
+            <ion-vue-router main :animated="true" />
         </ion-app>
     </div>
 </template>
